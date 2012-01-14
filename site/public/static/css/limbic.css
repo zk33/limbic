@@ -1,0 +1,66 @@
+body,td{
+font-size:100%;
+font-family:sans-serif;
+}
+
+body,div,section,ul,ol{
+margin:0;padding:0;
+}
+
+body{
+background:#C1CEB1;
+}
+header{
+background:#A0B043;
+}
+header a:link,
+header a:visited{ color:#000; text-decoration:none;}
+header a:hover{ text-decoration:underline;}
+#hLogo{
+background:#E3E9DC;
+width:47px;
+height:47px;
+margin:0;
+padding:0;
+position:absolute;
+}
+header nav{
+background:#E8E31E;
+width:600px;
+height:51px;
+}
+header nav ul{
+padding-left:64px;
+}
+header nav li{
+display:inline-block;
+font-family:Futura,"Century Gothic",sans-serif;
+font-weight:bold;
+font-size:12px;
+padding-top:26px;
+padding-right:5px;
+}
+#main{
+font-size:13px;
+color:#444;
+background:#E3E9DC;
+width:600px;
+padding:5px 0;
+}
+#main h1{
+color:#799086;
+font-size:42px;
+margin:0;
+padding:0 0 12px;
+}
+#main h2,
+#main p{
+padding:0 1em 1em;
+margin:0;
+}
+#main ul{
+padding:1em 1em 1em 2.5em;
+}
+footer{
+font-size:11px;
+}
