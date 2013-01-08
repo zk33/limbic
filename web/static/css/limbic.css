@@ -1,66 +1,86 @@
-body,td{
-font-size:100%;
-font-family:sans-serif;
+/* line 1, ../compass/limbic.scss */
+body, td {
+  font-size: 100%;
+  font-family: sans-serif;
 }
 
-body,div,section,ul,ol{
-margin:0;padding:0;
+/* line 6, ../compass/limbic.scss */
+body, div, section, ul, ol {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-background:#C1CEB1;
+/* line 10, ../compass/limbic.scss */
+body {
+  background: #FBFBFA;
 }
-header{
-background:#A0B043;
+
+/* line 13, ../compass/limbic.scss */
+header {
+  position: relative;
+  padding: 18px;
 }
-header a:link,
-header a:visited{ color:#000; text-decoration:none;}
-header a:hover{ text-decoration:underline;}
-#hLogo{
-background:#E3E9DC;
-width:47px;
-height:47px;
-margin:0;
-padding:0;
-position:absolute;
+/* line 17, ../compass/limbic.scss */
+header a:link, header a:visited {
+  color: #000;
+  text-decoration: none;
 }
-header nav{
-background:#E8E31E;
-width:600px;
-height:51px;
+/* line 18, ../compass/limbic.scss */
+header a:hover {
+  text-decoration: underline;
 }
-header nav ul{
-padding-left:64px;
+/* line 20, ../compass/limbic.scss */
+header #hLogo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
 }
-header nav li{
-display:inline-block;
-font-family:Futura,"Century Gothic",sans-serif;
-font-weight:bold;
-font-size:12px;
-padding-top:26px;
-padding-right:5px;
+/* line 21, ../compass/limbic.scss */
+header nav {
+  padding-left: 48px;
 }
-#main{
-font-size:13px;
-color:#444;
-background:#E3E9DC;
-width:600px;
-padding:5px 0;
+/* line 24, ../compass/limbic.scss */
+header nav ul li {
+  font-family: "Avenir Next",Futura,"Century Gothic",sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
 }
-#main h1{
-color:#799086;
-font-size:42px;
-margin:0;
-padding:0 0 12px;
+
+/* line 34, ../compass/limbic.scss */
+#main {
+  font-size: 13px;
+  color: #444;
+  width: 600px;
+  padding: 5px 0;
 }
-#main h2,
-#main p{
-padding:0 1em 1em;
-margin:0;
+/* line 39, ../compass/limbic.scss */
+#main h1 {
+  font-size: 32px;
 }
-#main ul{
-padding:1em 1em 1em 2.5em;
+/* line 42, ../compass/limbic.scss */
+#main h1, #main h2 {
+  color: #799086;
+  text-shadow: 1px 1px 0 #FFF;
 }
-footer{
-font-size:11px;
+/* line 46, ../compass/limbic.scss */
+#main h1, #main h2, #main p {
+  padding: 0 0 12px 18px;
+  margin: 0;
+}
+/* line 50, ../compass/limbic.scss */
+#main ul {
+  padding: 0 1em 1em 2.5em;
+}
+
+/* line 55, ../compass/limbic.scss */
+.release .content {
+  padding: 0 0 24px 18px;
+}
+
+/* line 59, ../compass/limbic.scss */
+footer {
+  font-size: 11px;
+  font-family: "Avenir Next",Futura,"Century Gothic",sans-serif;
+  padding: 18px;
 }
