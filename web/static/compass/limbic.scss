@@ -1,0 +1,63 @@
+body,td{
+ font-size:100%;
+ font-family:sans-serif;
+}
+
+body,div,section,ul,ol{
+ margin:0;padding:0;
+}
+
+body{
+ background:#FBFBFA;
+}
+header{
+ position:relative;
+ padding:18px;
+ a{
+  &:link,&:visited{ color:#000; text-decoration:none; }
+  &:hover { text-decoration:underline; }
+ }
+ #hLogo{ margin:0; padding:0; position:absolute; }
+ nav{
+  padding-left:48px;
+  ul{
+   li{
+    font-family:"Avenir Next",Futura,"Century Gothic",sans-serif;
+    font-weight:bold;
+    font-size:12px;
+    display:inline-block;
+   }
+  }
+ }
+}
+
+#main{
+ font-size:13px;
+ color:#444;
+ width:600px;
+ padding:5px 0;
+ h1{ 
+  font-size:32px;
+ }
+ h1,h2{
+  color:#799086;
+  text-shadow:1px 1px 0 #FFF;
+ }
+ h1,h2,p{
+  padding:0 0 12px 18px;
+  margin:0;
+ }
+ ul{
+  padding:0 1em 1em 2.5em;
+ }
+}
+.release{
+ .content{
+  padding:0 0 24px 18px;
+ }
+}
+footer{
+ font-size:11px;
+ font-family:"Avenir Next",Futura,"Century Gothic",sans-serif;
+ padding:18px;
+}
