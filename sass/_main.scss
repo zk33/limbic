@@ -1,0 +1,18 @@
+@import 'vars';
+
+.main {
+  font-size: 13px;
+  color: $g_color_text;
+  width: 600px;
+  padding: 5px 0;
+}
+.main-h {
+  font-size: 32px;
+  color: $g_color_h;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+.main-release-item {
+  padding: 0 0 24px 18px;
+}
+

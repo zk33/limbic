@@ -1,0 +1,16 @@
+@import 'vars';
+
+body, td {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+body, div, section, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:$g_color_bg;
+}
+
