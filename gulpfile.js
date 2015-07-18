@@ -9,7 +9,7 @@ var open = require('open');
 var Wig = require('wig');
 
 var paths = {
-  sass: ['sass/**/*.scss','sass/**/*.sass'],
+  sass: ['assets/sass/**/*.scss','assets/sass/**/*.sass'],
   wig:   ['templates/**/*', 'data/**/*']
 }
 
@@ -21,12 +21,12 @@ var builder = new Wig({
 });
 
 gulp.task('sass', function(){
-  return sass('sass',{
+  return sass('assets/sass',{
     style: 'compact',
     bundleExec: false,
     compass: false,
     sourcemap:false,
-    loadPath: [] 
+    loadPath: []
   })
   .on('error',function(err){
     console.error('Error',err.message,err);
@@ -65,7 +65,7 @@ gulp.task('server_node', function(){
 });
 
 // test server(PHP)
-gulp.task('server_php', shell.task([ 
+gulp.task('server_php', shell.task([
   'php -S localhost:3000 -t public'
 ]));
 
