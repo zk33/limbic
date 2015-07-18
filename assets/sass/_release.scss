@@ -20,3 +20,17 @@
   padding:4px;
   vertical-align:middle;
 }
+.release-get{
+
+}
+.release-get-item{
+  display:inline-block;
+  font-size:64px;
+  line-height:1;
+}
+.release-get-link{
+  color:darken($g_color_bg,15%);
+  &:hover{
+    color:lighten($g_color_text,15%);
+  }
+}
