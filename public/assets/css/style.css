@@ -1,0 +1,55 @@
+body, td { font-size: 100%; font-family: sans-serif; }
+
+body, div, section, ul, ol { margin: 0; padding: 0; }
+
+body { background: #FBFBFA; line-height: 1.7; }
+
+@font-face { font-family: "icons"; src: url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.eot"); src: url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.eot?#iefix") format("embedded-opentype"), url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.woff") format("woff"), url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.ttf") format("truetype"), url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.svg#icons") format("svg"); font-weight: normal; font-style: normal; }
+@media screen and (-webkit-min-device-pixel-ratio: 0) { @font-face { font-family: "icons"; src: url("../fonts/icons_440552abb3be3035e47ca880d5f7cffd.svg#icons") format("svg"); } }
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before, .icon-amazon:before, .icon-applemusic:before, .icon-beatport:before, .icon-itunes:before, .icon-soundcloud:before { display: inline-block; font-family: "icons"; font-style: normal; font-weight: normal; font-variant: normal; line-height: 1; text-decoration: inherit; text-rendering: optimizeLegibility; text-transform: none; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; }
+
+.icon-amazon:before { content: "\f100"; }
+
+.icon-applemusic:before { content: "\f101"; }
+
+.icon-beatport:before { content: "\f102"; }
+
+.icon-itunes:before { content: "\f103"; }
+
+.icon-soundcloud:before { content: "\f104"; }
+
+header { position: relative; }
+header a:link, header a:visited { color: #000; text-decoration: none; }
+header a:hover { text-decoration: underline; }
+
+.header-logo { margin: 0; padding: 0; }
+
+.header-nav { position: absolute; left: 100px; top: 130px; width: 100px; }
+
+.header-nav-item { font-family: "Roboto", sans-serif; font-weight: 400; font-size: 18px; list-style-type: none; line-height: 1; margin-bottom: 10px; }
+
+.main { width: 100%; max-width: 512px; position: absolute; left: 230px; top: 130px; }
+
+.main-content p { margin: 0 0 1.2em; padding: 0; }
+.main-content ul, .main-content ol { margin-left: 2em; }
+
+.main-content-en { font-family: "Roboto", sans-serif; }
+
+.main-content-note { font-size: 12px; }
+
+.main-h { margin: 0 0 1.5em; padding: 0; font-family: "Roboto", sans-serif; font-size: 26px; line-height: 1; }
+
+.release-item { list-style-type: none; margin-bottom: 20px; }
+
+.release-item-h { font-family: "Roboto", sans-serif; font-size: 20px; margin: 0; padding: 0 0 10px; }
+
+.release-no { background: #444; color: #FBFBFA; font-size: 12px; padding: 4px; vertical-align: middle; }
+
+.release-get-item { display: inline-block; font-size: 64px; line-height: 1; }
+
+.release-get-link { color: #d9d9d0; }
+.release-get-link:hover { color: #6a6a6a; }
+
+footer { font-size: 11px; font-family: "Roboto", sans-serif; padding: 18px 0; }

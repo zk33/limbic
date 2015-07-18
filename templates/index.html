@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block main %}
+<article class="release">
+
+<ol class="release-list">
+  {% for release in releases %}
+  <li class="release-item" id="release{{release.no}}">
+    <h2 class="release-item-h">
+      <span class="release-no">{{release.no}}</span>
+      <span class="release-title">&ldquo;{{release.title}}&rdquo;</span> -
+      <span class="release-author">{{release.author}}</span>
+    </h2>
+    {% if release.bandcamp_url %}
+    <div class="release-item-player release-item-player-bc">
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album={{release.bandcamp_album_id}}/size=large/bgcol={{COLOR_BG}}/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https:{{release.bandcamp_url}}">{{ release.title}} by {{release.author}}</a></iframe>
+    </div>
+    {% endif %}
+    <ul class="release-get">
+      {% if release.itunes_url %}
+      <li class="release-get-item release-get-itunes">
+        <a class="release-get-link" href="{{release.itunes_url}}" target="_blank">
+          <span class="icon-applemusic" aria-label="itunes store"></span>
+        </a>
+      </li>
+      {% endif %}
+      {% if release.beatport_url %}
+      <li class="release-get-item release-get-beatport">
+        <a class="release-get-link" href="{{release.beatport_url}}" target="_blank">
+          <span class="icon-beatport" aria-label="beatport"></span>
+        </a>
+      </li>
+      {% endif %}
+      {% if release.amazon_url %}
+      <li class="release-get-item release-get-amazon">
+        <a class="release-get-link" href="{{release.amazon_url}}" target="_blank">
+          <span class="icon-amazon" aria-label="amazon mp3"></span>
+        </a>
+      </li>
+      {% endif %}
+      {% if release.soundcloud_url %}
+      <li class="release-get-item release-get-soundcloud">
+        <a class="release-get-link" href="{{release.soundcloud_url}}" target="_blank">
+          <span class="icon-soundcloud" aria-label="soundcloud"></span>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </li>
+  {% endfor %}
+</ol>
+
+</article>
+{% endblock %}

@@ -1,0 +1,32 @@
+@import 'vars';
+
+header {
+  position: relative;
+  a{
+    &:link,&:visited{
+      color: $g_color_link;
+      text-decoration: none;
+    }
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.header-logo {
+  margin: 0;
+  padding: 0;
+}
+.header-nav {
+  position:absolute;
+  left: 100px;
+  top:130px;
+  width:100px;
+}
+.header-nav-item{
+  font-family: $g_font_main;
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type:none;
+  line-height:1;
+  margin-bottom:10px;
+}

@@ -1,0 +1,36 @@
+.release{
+
+}
+
+.release-item{
+  list-style-type:none;
+  margin-bottom:20px;
+}
+
+.release-item-h{
+  font-family: $g_font_main;
+  font-size:20px;
+  margin:0;
+  padding:0 0 10px;
+}
+.release-no{
+  background:$g_color_text;
+  color:$g_color_bg;
+  font-size:12px;
+  padding:4px;
+  vertical-align:middle;
+}
+.release-get{
+
+}
+.release-get-item{
+  display:inline-block;
+  font-size:64px;
+  line-height:1;
+}
+.release-get-link{
+  color:darken($g_color_bg,15%);
+  &:hover{
+    color:lighten($g_color_text,15%);
+  }
+}

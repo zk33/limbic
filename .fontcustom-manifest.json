@@ -1,0 +1,64 @@
+{
+  "checksum": {
+    "previous": "440552abb3be3035e47ca880d5f7cffd63534a9a1d22a11544f9f5b1258071dc",
+    "current": "440552abb3be3035e47ca880d5f7cffd63534a9a1d22a11544f9f5b1258071dc"
+  },
+  "fonts": [
+    "public/assets/fonts/icons_440552abb3be3035e47ca880d5f7cffd.ttf",
+    "public/assets/fonts/icons_440552abb3be3035e47ca880d5f7cffd.svg",
+    "public/assets/fonts/icons_440552abb3be3035e47ca880d5f7cffd.woff",
+    "public/assets/fonts/icons_440552abb3be3035e47ca880d5f7cffd.eot"
+  ],
+  "glyphs": {
+    "amazon": {
+      "codepoint": 61696,
+      "source": "assets/icons/amazon.svg"
+    },
+    "applemusic": {
+      "codepoint": 61697,
+      "source": "assets/icons/applemusic.svg"
+    },
+    "beatport": {
+      "codepoint": 61698,
+      "source": "assets/icons/beatport.svg"
+    },
+    "itunes": {
+      "codepoint": 61699,
+      "source": "assets/icons/itunes.svg"
+    },
+    "soundcloud": {
+      "codepoint": 61700,
+      "source": "assets/icons/soundcloud.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": true,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "icons",
+    "force": false,
+    "input": {
+      "templates": "assets/icons",
+      "vectors": "assets/icons"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "assets/sass",
+      "fonts": "public/assets/fonts",
+      "preview": "public/assets/fonts"
+    },
+    "preprocessor_path": "../fonts/",
+    "quiet": false,
+    "templates": [
+      "scss"
+    ]
+  },
+  "templates": [
+    "assets/sass/_icons.scss"
+  ]
+}
