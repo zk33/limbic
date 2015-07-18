@@ -79,4 +79,4 @@ gulp.task('open', function(){
 });
 
 
-gulp.task('default',['server_node','wig','sass','watch','open']);
+gulp.task('default',['server_py','wig','sass','watch','open']);

@@ -2,7 +2,6 @@
 
 header {
   position: relative;
-  padding: 18px;
   a{
     &:link,&:visited{
       color: $g_color_link;
@@ -16,14 +15,18 @@ header {
 .header-logo {
   margin: 0;
   padding: 0;
-  position: absolute;
 }
 .header-nav {
-  padding-left: 48px;
+  position:absolute;
+  left: 100px;
+  top:130px;
+  width:100px;
 }
 .header-nav-item{
-  font-family: "Avenir Next",Futura,"Century Gothic",sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-  display: inline-block;
+  font-family: $g_font_main;
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type:none;
+  line-height:1;
+  margin-bottom:10px;
 }

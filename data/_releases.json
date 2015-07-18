@@ -1,17 +1,30 @@
 [
   {
-    "no":"0001",
-    "title":"common",
-    "author":"akayaka"
+    "no":"0003",
+    "title":"movement.0",
+    "author":"akayaka",
+    "at":"2013-03-21",
+    "bandcamp_album_id":"2611374227",
+    "bandcamp_url":"//akayaka.bandcamp.com/album/movement-0",
+    "itunes_url":"",
+    "amazon_url":"",
+    "soundcloud_url":"",
+    "beatport_url":""
   },
   {
     "no":"0002",
     "title":"imagery.0",
-    "author":"akayaka"
+    "author":"akayaka",
+    "at":"2013-02-21",
+    "bandcamp_album_id":"3847804579",
+    "bandcamp_url":"//akayaka.bandcamp.com/album/imagery-0"
   },
   {
-    "no":"0003",
-    "title":"movement.0",
-    "author":"akayaka"
+    "no":"0001",
+    "title":"common",
+    "author":"akayaka",
+    "at":"2012-01-21",
+    "bandcamp_album_id":"1703365937",
+    "bandcamp_url":"//akayaka.bandcamp.com/album/common"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="Keywords" content="limbic" />
 <meta name="Description" content="limbic" />
 <link rel="home" href="http://limbic.cc/" />
-<link rel="alternate" type="application/rss+xml" title="RSS" href="" />
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <script src="/static/js/limbic.js" type="text/javascript" charset="utf-8"></script>
 <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 <!--[if lt IE 9]>
@@ -18,24 +18,31 @@
 <body>
 <header>
 <figure class="header-logo">
-<a href="/"><img src="/assets/img/logo.svg" width="32" height="32" /></a>
+<a href="/"><img src="/assets/img/logo.svg" /></a>
 </figure>
 <nav class="header-nav">
 <ul>
-<li class="header-nav-item"><a href="/">home</a></li>
-<li class="header-nav-item"><a href="/license/">license</a></li>
+<li class="header-nav-item"><a href="/">releases</a></li>
 <li class="header-nav-item"><a href="/about/">about</a></li>
+<li class="header-nav-item"><a href="/license/">license</a></li>
 </ul>
 </nav>
 </header>
 
 <section class="main">
 {% block main %}{% endblock %}
-</section>
+
+
+
 
 <footer>
-<section id="copyright">copyright &copy; 2012- limbic</section>
+  <section id="copyright">
+    <p>copyright &copy; 2012- limbic</p>
+  </section>
 </footer>
+
+</section>
+
 
 </body>
 </html>
